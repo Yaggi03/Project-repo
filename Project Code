@@ -2,3 +2,31 @@
 
 
 ## All the important code inside this project's!
+
+
+count = 1
+while count < 6:
+    count = count + 1
+    innerCount = 1
+    while innerCount < count:
+        print(innerCount, end=" ")
+        innerCount += 1
+    print()
+Sub1 = int(input("Enter marks in Sub1: "))
+Sub2 = int(input("Enter marks in Sub2: "))
+Sub3 = int(input("Enter marks in Sub3: "))
+avg=(Sub1+Sub2+Sub3) / 3
+print(avg)
+
+if avg>= 90:
+    print("Grade A")
+elif (avg>=80) and (avg<90):
+    print("Grade B")
+elif (avg>=70) and (avg<80):
+    print ("Grade C")
+elif (avg>=60) and (avg<70):
+    print ("Grade D")
+else:
+    print("Grade F”)
+
+
